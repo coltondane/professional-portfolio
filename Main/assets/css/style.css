@@ -1,0 +1,51 @@
+body {
+    background-color: rgb(223, 236, 223);
+}
+
+.title {
+    font-size: 40px;
+    padding: 5px;
+    margin-left: 5px;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    color: rgb(42, 20, 51);
+    background-color: rgb(69, 75, 27);
+    padding: 10px;
+}
+
+.sections {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+} 
+
+nav,ul{
+    display: flex;
+    flex-direction: row;
+}
+
+.content {
+    font-size: 20px;
+    justify-content: center;
+}
+
+#intro, 
+#languages {
+    padding: 10px;
+}
+
+li{
+    margin-right: 10px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+button {
+    padding: 20px;
+    
+}

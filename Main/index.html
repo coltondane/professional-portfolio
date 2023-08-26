@@ -14,7 +14,7 @@
         <h1>Colton Laidig</h1>
 
         <!-- nav bar -->
-        <nav>
+        <nav class="nav">
             <ul>
                 <li>
                     <a href="#about-me">About Me</a>
@@ -23,37 +23,59 @@
                     <a href="#my-work">My work</a>
                 </li>
                 <li>
-                    <a href="contact-me">Contact Me</a>
+                    <a href="#contact-me">Contact Me</a>
                 </li>
             </ul>
         </nav>
     </header>
     <!-- my image -->
-    <figure class="hero"></figure>
+    <figure class="hero">
+        <img src="#source" alt="">
+    </figure>
     
     <!-- main section -->
     <main>
-        <section class="about-me">
-            <h2>About Me</h2>
-            <p>
-                My name is Colton Laidig, and I am a 23 year old aspiring software developer currenlty enrolled in DU's Full Stack Software Engineering bootcamp. I really enjoy solving complex issues and bringing my skills and knowledge to others working on similar things.
-            </p>
-            <p>
-                I have worked on projects using the following software languages: HTML, CSS, JavaScript, Python, C++, and SQLite 
-            </p>
+        <section class="sections" id="about-me">
+            <h2 class="title">About Me</h2>
+            <section class="content">
+                <p id="intro">
+                    My name is Colton Laidig, and I am a 23 year old aspiring software developer currenlty enrolled in DU's Full Stack Software Engineering bootcamp. I really enjoy solving complex issues and bringing my skills and knowledge to others working on similar things.
+                </p>
+                <p id="languages">
+                    I have worked on projects using the following software languages: HTML, CSS, JavaScript, Python, C++, and SQLite 
+                </p>
+            </section>
 
         </section>
-        <section class="work">
-            <h2>My Work</h2>
-            <img src="#image source" alt="image">
-            <a href="https://coltondane.github.io/code-refactoring/">Code Refactoring</a>
+        <section class="sections" id="my-work">
+            <section>
+                <!-- github project links -->
+                <h2 class="title">My Work</h2>
+                <section class="content">
+                    <a href="https://coltondane.github.io/code-refactoring/" target="_blank">
+                        <button>Code Refactoring</button>
+                    </a>
+                    <a href="https://kalanij94.github.io/Project-Mars/" target="_blank">
+                        <button>Project Mars</button>
+                    </a>
+                    <a href="https://coltondane.github.io/password-generator/">
+                        <button>Password Generator</button>
+                    </a>
+                    <a href="https://coltondane.github.io/full-stack-quiz/">
+                        <button>Full Stack Quiz</button>
+                    </a>
+                </section>
+            </section>
         </section>
-        <section class="contact">
-            <h2>Contact Me</h2>
-            <address>
-                <a href="malito:coltondane.py@gmail.com">coltondane.py@gmail.com</a>
-                <p>720-701-2074</p>
-            </address>
+        <section class="sections" id="contact-me">
+            <h2 class="title">Contact Me</h2>
+            <section class="content">
+                <address>
+                    <p>720-701-2074</p>
+                    <a href="malito:coltondane.py@gmail.com">coltondane.py@gmail.com</a>
+                    <a href="https://www.linkedin.com/in/colton-laidig-13781424b/">Linkedin</a>
+                </address>
+            </section>
         </section>
 
     </main>
