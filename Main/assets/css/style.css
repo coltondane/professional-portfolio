@@ -55,11 +55,20 @@ button {
     position: relative;
     text-align: center;
     color: white;
-  }
+}
+
+#mars-image {
+    background-color: rgb(69, 75, 27);
+}
+#mars-image:hover {
+    opacity: 90%;
+}
   
   /* Bottom left text */
   .bottom-left {
     position: absolute;
     bottom: 40%;
     left: 15%;
+    background-color: black;
+    color: white;
   }
