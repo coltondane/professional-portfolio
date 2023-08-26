@@ -49,3 +49,17 @@ button {
     padding: 20px;
     
 }
+
+/* project name text */
+#mars {
+    position: relative;
+    text-align: center;
+    color: white;
+  }
+  
+  /* Bottom left text */
+  .bottom-left {
+    position: absolute;
+    bottom: 40%;
+    left: 15%;
+  }
