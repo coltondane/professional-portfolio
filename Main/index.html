@@ -1,91 +1,102 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Professional Portfolio</title>
     <!-- link css files -->
-    <link rel="stylesheet" href="./assets/css/reset.css">
-    <link rel="stylesheet" href="./assets/css/style.css">
-</head>
-<body>
+    <link rel="stylesheet" href="./assets/css/reset.css" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+  </head>
+  <body>
     <!-- header -->
     <header>
-        <h1>Colton Laidig</h1>
+      <h1>Colton Laidig</h1>
 
-        <!-- nav bar -->
-        <nav class="nav">
-            <ul>
-                <li>
-                    <a href="#about-me">About Me</a>
-                </li>
-                <li>
-                    <a href="#my-work">My work</a>
-                </li>
-                <li>
-                    <a href="#contact-me">Contact Me</a>
-                </li>
-            </ul>
-        </nav>
+      <!-- nav bar -->
+      <nav class="nav">
+        <ul>
+          <li>
+            <a href="#about-me">About Me</a>
+          </li>
+          <li>
+            <a href="#my-work">My work</a>
+          </li>
+          <li>
+            <a href="#contact-me">Contact Me</a>
+          </li>
+        </ul>
+      </nav>
     </header>
     <!-- my image -->
     <figure class="hero">
-        <img src="#source" alt="">
+      <img src="./assets/images/profile.jpeg" alt="profile" />
     </figure>
-    
+
     <!-- main section -->
     <main>
-        <section class="sections" id="about-me">
-            <h2 class="title">About Me</h2>
+      <section class="sections" id="about-me">
+        <h2 class="title">About Me</h2>
+        <section class="content">
+          <p id="intro">
+            My name is Colton Laidig, and I am a 23 year old aspiring software
+            developer currenlty enrolled in DU's Full Stack Software Engineering
+            bootcamp. I really enjoy solving complex issues and bringing my
+            skills and knowledge to others working on similar things.
+          </p>
+          <p id="languages">
+            I have worked on projects using the following software languages:
+            HTML, CSS, JavaScript, Python, C, C++, and SQLite
+          </p>
+        </section>
+      </section>
+      <section class="sections" id="my-work">
+        <section>
+          <!-- github project links -->
+          <h2 class="title">My Work</h2>
+          <section class="content">
             <section class="content">
-                <p id="intro">
-                    My name is Colton Laidig, and I am a 23 year old aspiring software developer currenlty enrolled in DU's Full Stack Software Engineering bootcamp. I really enjoy solving complex issues and bringing my skills and knowledge to others working on similar things.
-                </p>
-                <p id="languages">
-                    I have worked on projects using the following software languages: HTML, CSS, JavaScript, Python, C, C++, and SQLite 
-                </p>
-            </section>
-
-        </section>
-        <section class="sections" id="my-work">
-            <section>
-                <!-- github project links -->
-                <h2 class="title">My Work</h2>
-                <section class="content">
-                    <section id="mars">
-                        <a href="https://kalanij94.github.io/Project-Mars/" target="_blank">
-                            <img id="mars-image" src="https://cdn.mos.cms.futurecdn.net/Q4UQ2bWADBXqrRy9H3PcTo-1920-80.jpg.webp" alt="mars" style="width: 80%">
-                            <div class="bottom-left">Project Mars</div>
-                        </a>
-                    </section>
-                    <section id="the-rest">
-                        <a href="https://coltondane.github.io/code-refactoring/" target="_blank">
-                            <img id="code-image" src="https://codingweek.org/wp-content/uploads/2019/08/christopher-robin-ebbinghaus-pgSkeh0yl8o-unsplash.jpg" alt="mars" style="width: 33%">
-                            <div class="bottom-left">Code Refactoring</div>
-                        </a>
-                        <a href="https://coltondane.github.io/password-generator/" target="_blank">
-                            <img id="mars-image" src="https://www.eset.com/fileadmin/_processed_/1/b/csm_password-security_1_974283dc76.jpg" alt="mars" style="width: 33%">
-                            <div class="bottom-left">Password Generator</div>
-                        </a>
-                        <a href="https://coltondane.github.io/full-stack-quiz/" target="_blank">
-                            <img id="mars-image" src="https://i0.wp.com/marenschmidt.com/wp-content/uploads/2017/07/Pop-quiz-ISS_2160_02106-copy.jpg?resize=768%2C510&ssl=1" alt="mars" style="width: 33%">
-                            <div class="bottom-left">Full Stack Quiz</div>
-                        </a>
-                    </section>
-                </section>
+                <article class="project" id="mars">
+                    <a href="https://kalanij94.github.io/Project-Mars/" target="_blank">
+                        <img src="https://cdn.mos.cms.futurecdn.net/Q4UQ2bWADBXqrRy9H3PcTo-1920-80.jpg.webp" alt="mars" class="project-image">
+                        <div class="project-title">Project Mars</div>
+                    </a>
+                </article>
+        
+                <article class="project" id="code-refactoring">
+                    <a href="https://coltondane.github.io/code-refactoring/" target="_blank">
+                        <img src="https://codingweek.org/wp-content/uploads/2019/08/christopher-robin-ebbinghaus-pgSkeh0yl8o-unsplash.jpg" alt="code" class="project-image">
+                        <div class="project-title">Code Refactoring</div>
+                    </a>
+                </article>
+        
+                <article class="project" id="password-generator">
+                    <a href="https://coltondane.github.io/password-generator/" target="_blank">
+                        <img src="https://www.eset.com/fileadmin/_processed_/1/b/csm_password-security_1_974283dc76.jpg" alt="pass" class="project-image">
+                        <div class="project-title">Password Generator</div>
+                    </a>
+                </article>
+        
+                <article class="project" id="quiz">
+                    <a href="https://coltondane.github.io/full-stack-quiz/" target="_blank">
+                        <img src="https://i0.wp.com/marenschmidt.com/wp-content/uploads/2017/07/Pop-quiz-ISS_2160_02106-copy.jpg?resize=768%2C510&ssl=1" alt="quiz" class="project-image">
+                        <div class="project-title">Full Stack Quiz</div>
+                    </a>
+                </article>
             </section>
         </section>
-        <section class="sections" id="contact-me">
-            <h2 class="title">Contact Me</h2>
-            <section class="content">
-                <address>
-                    <p>720-701-2074</p>
-                    <a href="malito:coltondane.py@gmail.com">coltondane.py@gmail.com</a>
-                    <a href="https://www.linkedin.com/in/colton-laidig-13781424b/">Linkedin</a>
-                </address>
-            </section>
+      </section>
+      <section class="sections" id="contact-me">
+        <h2 class="title">Contact Me</h2>
+        <section class="content">
+          <address>
+            <a href="malito:coltondane.py@gmail.com">coltondane.py@gmail.com</a>
+            <a href="https://www.linkedin.com/in/colton-laidig-13781424b/"
+              >Linkedin</a
+            >
+          </address>
         </section>
-
+      </section>
     </main>
-</body>
+  </body>
 </html>
